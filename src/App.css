@@ -1,0 +1,11 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* here created a common tailwind style to apply to all btn classes. */
+.btn {
+  @apply font-medium transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300
+}
